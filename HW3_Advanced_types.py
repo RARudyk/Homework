@@ -34,3 +34,40 @@ print('Anna has {0} apples and {1} peaches'.format("273", "357"))
 #5. With .format and curly braces {}
 print('\ntask_5')
 print('Anna has {} apples and {} peaches'.format(3, 33))
+
+#6. By passing index numbers into the curly braces.
+print('\ntask_6')
+print('Anna has {0} apples and {1} peaches'.format(23, 2))
+
+#7. By using keyword arguments into the curly braces.
+print('\ntask_7')
+print('Anna has {0} apples and {rr} peaches'.format(12, rr="43"))
+
+#8*. With indicators of field size (5 chars for the first and 3 for the second)
+print('\ntask_8')
+print('Anna has {0:5} apples and {1:3} peaches'.format(12, "43"))
+
+#9. With f-strings and variables
+print('\ntask_9')
+apples = 5
+peaches = 13
+print(F'Anna has {apples} apples and {peaches} peaches')
+
+#10. With % operator
+print('\ntask_10')
+app = "three"
+pea = "fifteen"
+print('Anna has %s apples and %s peaches'% (app, pea))
+
+#11*. With variable substitutions by name (hint: by using dict)
+print('\ntask_11')
+app1 = "eighteen"
+pea1 = "twelve"
+data_dict = {"RE": app1, "me": pea1}
+print('Anna has %(RE)s apples and %(me)s peaches'% data_dict)
+
+#
+
+
+
+
