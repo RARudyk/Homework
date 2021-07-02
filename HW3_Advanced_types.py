@@ -163,11 +163,28 @@ def foo(x, y):
 
 #18. Convert (7) to lambda function
 print('\ntask_18')
-
+foo_7 = lambda x, y : x if(x < y) else y
 
 print('next task-- >19')
 #(8)
 foo = lambda x, y, z: z if y < x and x > z else y
+
 #19*. Convert (8) to regular function
 print('\ntask_19')
+def foo_8(x, y, z):
+    if y < x and x > z:
+        return z
+    else:
+        return y
 
+print('next task-- >20,..,22')
+
+lst_to_sort = [5, 18, 1, 24, 33, 15, 13, 55]
+
+#20. Sort lst_to_sort from min to max
+#21. Sort lst_to_sort from max to min
+#22. Use map and lambda to update the lst_to_sort by multiply each element by 2
+
+#23*. Raise each list number to the corresponding number on another list:
+list_A = [2, 3, 4]
+list_B = [5, 6, 7]
