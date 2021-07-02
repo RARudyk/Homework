@@ -19,9 +19,7 @@ print('\ntask_3')
 print(type(int_a),type(str_b),type(set_c),type(lst_d),type(dict_e))
 
 #4*. Check the type of the objects by using isinstance.
-#String formatting:
-#Replace the placeholders with a value:
-#"Anna has ___ apples and ___ peaches."
+
 print('\ntask_4')
 print(isinstance(int_a, type(int_a)), 'format from f.type is > ', type(int_a))
 print(isinstance(str_b, type(str_b)), 'format from f.type is > ', type(str_b))
@@ -29,7 +27,10 @@ print(isinstance(set_c, type(set_c)), 'format from f.type is > ', type(set_c))
 print(isinstance(lst_d, type(lst_d)), 'format from f.type is > ', type(lst_d))
 print(isinstance(dict_e, type(dict_e)), 'format from f.type is > ', type(dict_e))
 
-print('Anna has {0} apples and {1} peaches'.format("273", "357"))
+#String formatting:
+#Replace the placeholders with a value:
+#"Anna has ___ apples and ___ peaches."
+#print('Anna has {0} apples and {1} peaches'.format("273", "357"))
 
 #5. With .format and curly braces {}
 print('\ntask_5')
@@ -66,8 +67,107 @@ pea1 = "twelve"
 data_dict = {"RE": app1, "me": pea1}
 print('Anna has %(RE)s apples and %(me)s peaches'% data_dict)
 
-#
+#Comprehensions:
+#(1)
+lst = []
+for num in range(10):
+    if num % 2 == 1:
+        lst.append(num ** 2)
+    else:
+        lst.append(num ** 4)
+print(lst)
+print(type(lst))
+
+#12. Convert (1) to list comprehension
+print('\ntask_12')
+list_compr = [num ** 2 if num % 2 == 1 else num ** 4 for num in range(10)  ]
+print(list_compr)
+
+#13. Convert (2) to regular for with if-else
+print('\ntask_13')
+#(2)
+list_comprehension = [num // 2 if num % 2 == 0 else num * 10 for num in range(10)]
+print(list_comprehension)
+
+tes = []
+for num in range(10):
+    if num % 2 == 0:
+        tes.append(num // 2)
+    else:
+        tes.append(num * 10)
+print(tes)
 
 
 
+print('next task-- >14')
+#(3)
+d = {}
+for num in range(1, 11):
+    if num % 2 == 1:
+        d[num] = num ** 2
+print(d)
+#14. Convert (3) to dict comprehension.
+print('\ntask_14')
+dict_comp = {num: num ** 2 for num in range(1, 11) if num % 2 == 1 }
+print(dict_comp)
+
+print('next task-- >15')
+#(4)
+d = {}
+for num in range(1, 11):
+    if num % 2 == 1:
+        d[num] = num ** 2
+    else:
+        d[num] = num // 0.5
+print(d)
+#15*. Convert (4) to dict comprehension.
+print('\ntask_15')
+dic_com_4 = {num: num ** 2 if num % 2 == 1 else num // 0.5 for num in range(1, 11)}
+print(dic_com_4)
+
+
+print('next task-- >16')
+#(5)
+dict_comprehension = {x: x**3 for x in range(10) if x**3 % 4 == 0}
+print(dict_comprehension)
+#16. Convert (5) to regular for with if.
+print('\ntask_16')
+dict_5 = {}
+for x in range(10):
+    if x**3 % 4 == 0:
+        dict_5[x] = x**3
+print(dict_5)
+
+print('next task-- >17')
+#(6)
+dict_comprehension = {x: x**3 if x**3 % 4 == 0 else x for x in range(10)}
+print(dict_comprehension)
+#17*. Convert (6) to regular for with if-else.
+print('\ntask_17')
+lis_6 = {}
+for x in range(10):
+    if x**3 % 4 == 0:
+        lis_6[x] = x**3
+    else:
+        lis_6[x] = x
+print(lis_6)
+
+print('next task-- >18')
+#Lambda:
+#(7)
+def foo(x, y):
+    if x < y:
+        return x
+    else:
+        return y
+
+#18. Convert (7) to lambda function
+print('\ntask_18')
+
+
+print('next task-- >19')
+#(8)
+foo = lambda x, y, z: z if y < x and x > z else y
+#19*. Convert (8) to regular function
+print('\ntask_19')
 
