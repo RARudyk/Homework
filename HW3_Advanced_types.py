@@ -180,11 +180,55 @@ def foo_8(x, y, z):
 print('next task-- >20,..,22')
 
 lst_to_sort = [5, 18, 1, 24, 33, 15, 13, 55]
-
+print(lst_to_sort)
 #20. Sort lst_to_sort from min to max
+print('\ntask_20')
+print(sorted(lst_to_sort))
+#print(lst_to_sort_20)
 #21. Sort lst_to_sort from max to min
+print('\ntask_21')
+print(sorted(lst_to_sort, reverse=True))
 #22. Use map and lambda to update the lst_to_sort by multiply each element by 2
-
+print('\ntask_22')
+result = map(lambda x: x * 2, lst_to_sort)
+print(list(result))
 #23*. Raise each list number to the corresponding number on another list:
+print('\ntask_23')
 list_A = [2, 3, 4]
 list_B = [5, 6, 7]
+
+def mult(x, y):
+    return x * y
+
+result23 = list(map(mult, list_A, list_B))
+print(result23)
+
+#24. Use reduce and lambda to compute the numbers of a lst_to_sort.
+print('\ntask_24')
+from functools import reduce
+result_24 = reduce(lambda x, y: x + y, lst_to_sort)
+print(result_24)
+
+#25. Use filter and lambda to filter the number of a lst_to_sort with elem % 2 == 1.
+print('\ntask_25')
+result_25 = list(filter(lambda x: x % 2 == 1, lst_to_sort))
+print(result_25)
+
+#26. Considering the range of values: b = range(-10, 10), use the function filter to return only negative numbers.
+print('\ntask_26')
+new_list = []
+for b in range(-10 ,10):
+    new_list.append(b)
+print(new_list)
+result_26 = list(filter(lambda x: x < 0, new_list))
+print(result_26)
+
+#27*. Using the filter function, find the values that are common to the two lists:
+print('\ntask_27')
+list_1 = [1,2,3,5,7,9]
+list_2 = [2,3,5,6,7,8]
+result_27 = list(filter(lambda x: x in list_2, list_1))
+print(result_27)
+
+#result_27_1 = list([x for x in list_1 if x in list_2])
+#print(result_27_1)
