@@ -1,0 +1,360 @@
+1. Create a folder called cursor_git_hw
+
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-$ mkdir cursor_git_hw
+	
+2. cd into the cursor_git_hw folder.
+
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-$ cd cursor_git_hw
+
+3. Create a file called first.txt.
+
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ touch first.txt
+
+4. Add first.txt to the staging area.
+
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ git add first.txt
+	
+rudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   first.txt
+
+5. Commit with the message "adding first.txt".
+
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ git commit -m "adding first.txt"
+	
+[master 1d28688] adding first.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 cursor_git_hw/first.txt
+
+6. Check out your commit with git log.
+
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ git log
+	
+commit 1d28688fe0aacdb3e1a5b92f867efc0ab17984b7 (HEAD -> master)
+Author: ROman Rudyk <r.a.rudyk@gmail.com>
+Date:   Wed Jun 30 13:16:11 2021 +0300
+
+    adding first.txt
+
+commit 189d9c6c457caf358bb3e4dfb7b5fcd88e57a57d (origin/master, origin/HEAD)
+Author: Rostyslav Kitsylinskyy <rostyslav.kitsylinskyy@gmail.com>
+Date:   Tue Jun 22 17:46:00 2021 +0300
+
+    Linux HW
+
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ git push
+	
+7. Create another file called second.txt.
+
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ touch second.txt
+
+8. Add second.txt to the staging area.
+
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ git add second.txt
+	
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   second.txt
+	
+	
+9. Commit with the message "adding second.txt"
+
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ git commit -m "adding second.txt"
+	
+[master 571dfae] adding second.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 cursor_git_hw/second.txt
+
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ git push
+
+10. Remove the first.txt file
+
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ rm first.txt
+
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ git status
+
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	deleted:    first.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+11. Add this change to the staging area
+
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ git add first.txt
+
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ git status
+
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	deleted:    first.txt
+
+	
+12. Commit with the message "removing first.txt"
+
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ git commit -m "removing first.txt"
+[master 5b54d0f] removing first.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 cursor_git_hw/first.txt
+
+
+13. Check out your commits using git log
+
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ git log
+commit 5b54d0f75aafad52dcb0e27efb0e521f2bb90369 (HEAD -> master)
+Author: ROman Rudyk <r.a.rudyk@gmail.com>
+Date:   Wed Jun 30 13:43:22 2021 +0300
+
+    removing first.txt
+
+commit 571dfaecda7389b51f8a2e7631f5c737f8e2a800 (origin/master, origin/HEAD)
+Author: ROman Rudyk <r.a.rudyk@gmail.com>
+Date:   Wed Jun 30 13:24:02 2021 +0300
+
+    adding second.txt
+
+commit 1d28688fe0aacdb3e1a5b92f867efc0ab17984b7
+Author: ROman Rudyk <r.a.rudyk@gmail.com>
+Date:   Wed Jun 30 13:16:11 2021 +0300
+
+    adding first.txt
+
+commit 189d9c6c457caf358bb3e4dfb7b5fcd88e57a57d
+Author: Rostyslav Kitsylinskyy <rostyslav.kitsylinskyy@gmail.com>
+Date:   Tue Jun 22 17:46:00 2021 +0300
+
+    Linux HW
+
+
+14. Push your changes to remote
+
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 327 bytes | 327.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To github.com:RARudyk/Python-Orion-basic-.git
+   571dfae..5b54d0f  master -> master
+
+15. Create new branch from master called `first` (without checkouting)
+
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ git branch first
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ git branch
+  first
+* master
+
+16. Create one more branch from master called `second` (with checkouting to it)
+
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ git checkout -b second
+Switched to a new branch 'second'
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ git branch
+  first
+  master
+* second
+
+
+17. Change the second.txt file with "Hello" string.
+
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ echo "Hello" > second.txt
+
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ cat second.txt
+Hello
+
+
+18. Stash you changes and checkout to first branch.
+
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ git stash
+Saved working directory and index state WIP on second: 5b54d0f removing first.txt
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ git checkout first
+Switched to branch 'first'
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ git branch
+* first
+  master
+  second
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ 
+
+
+19. Checkout back and Stash Pop the changes.
+
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ git checkout second
+Switched to branch 'second'
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ git branch
+  first
+  master
+* second
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ git stash pop
+On branch second
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   second.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Dropped refs/stash@{0} (4fed129d6d251ce3b2e2d4eebd931973402f5483)
+
+
+20. Add your changes to the staging area
+
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ git add second.txt
+
+
+21. Commit with the message "Changing second.txt".
+
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ git commit -m "Changing second.txt"
+[second b6928b1] Changing second.txt
+ 1 file changed, 1 insertion(+)
+
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ git log
+commit b6928b159d09b2fa15a2d13cab620a276e11bfa8 (HEAD -> second)
+Author: ROman Rudyk <r.a.rudyk@gmail.com>
+Date:   Wed Jun 30 14:39:19 2021 +0300
+
+    Changing second.txt
+
+commit 5b54d0f75aafad52dcb0e27efb0e521f2bb90369 (origin/master, origin/HEAD, master, first)
+Author: ROman Rudyk <r.a.rudyk@gmail.com>
+Date:   Wed Jun 30 13:43:22 2021 +0300
+
+    removing first.txt
+
+commit 571dfaecda7389b51f8a2e7631f5c737f8e2a800
+Author: ROman Rudyk <r.a.rudyk@gmail.com>
+Date:   Wed Jun 30 13:24:02 2021 +0300
+
+    adding second.txt
+
+commit 1d28688fe0aacdb3e1a5b92f867efc0ab17984b7
+Author: ROman Rudyk <r.a.rudyk@gmail.com>
+Date:   Wed Jun 30 13:16:11 2021 +0300
+
+    adding first.txt
+
+
+22. Push your changes to remote
+
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ git push
+fatal: The current branch second has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin second
+
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ git push --set-upstream origin second
+Branch 'second' set up to track remote branch 'second' from 'origin'.
+Everything up-to-date
+
+
+23. Checkout to first branch.
+
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ git checkout first
+Switched to branch 'first'
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ git branch
+* first
+  master
+  second
+
+
+24. Change the second.txt file with "Cursor" string.
+
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ echo "Cursor" >second.txt
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ cat second.txt
+Cursor
+
+
+25. Add your changes to the staging area
+
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ git add second.txt
+
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ git status
+On branch first
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   second.txt
+
+
+26. Commit with the message "Changing second.txt".
+
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ git commit -m "Changing second.txt"
+[first 665ba19] Changing second.txt
+ 1 file changed, 1 insertion(+)
+
+
+27. Push your changes to remote
+
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ git push --set-upstream origin first
+Branch 'first' set up to track remote branch 'first' from 'origin'.
+Everything up-to-date
+
+
+28. Checkout to master branch
+
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ git branch
+  first
+* master
+  second
+
+
+29*. Merge the changes from second branch
+
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ git merge second
+Updating 5b54d0f..b6928b1
+Fast-forward
+ cursor_git_hw/second.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ git push
+Total 0 (delta 0), reused 0 (delta 0)
+To github.com:RARudyk/Python-Orion-basic-.git
+   5b54d0f..b6928b1  master -> master
+
+
+30*. Then merge the changes from first branch
+
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ git merge first
+Auto-merging cursor_git_hw/second.txt
+CONFLICT (content): Merge conflict in cursor_git_hw/second.txt
+Automatic merge failed; fix conflicts and then commit the result.
+
+
+
+31*. Resolve conflict and push the changes to remote
+
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ git add second.txt
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ git commit -m "Merge from second branch to master"
+[master be72684] Merge from second branch to master
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ git push
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 411 bytes | 411.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To github.com:RARudyk/Python-Orion-basic-.git
+   b6928b1..be72684  master -> master
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$  git branch
+  first
+* master
+  second
+rrudyk@rrudyk-ZenBook-UX425IA-UM425IA:~/progect/Python-Orion-basic-/cursor_git_hw$ git merge first
+Already up to date.
+
