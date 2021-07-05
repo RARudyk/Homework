@@ -52,7 +52,7 @@ print(f'i can driving with max speed {Bohdan.mi_speed()} mileage')
 
 # 3. Determine which class a given Bus object belongs to (Check type of an object)
 print('\ntask_3')
-
+print(type(Bus))
 print(isinstance(Bohdan, Bus))
 
 # 4. Determine if School_bus is also an instance of the Vehicle class
@@ -120,6 +120,26 @@ for animals in (bear, wolf):
 # 8. Create class City with name, population instance attributes, return a new instance only when population > 1500,
 # otherwise return message: "Your city is too small".
 print('\ntask_8')
+class City:
+
+    def __new__(cls, name, population):
+        if population > 1500:
+            return super(City, cls).__new__(cls)
+        else:
+            return "Your city is too small."
+
+    def __init__(self, name, population):
+        self.name = name
+        self.population = population
+
+    def __str__(self):
+        return f"Name city is {self.name} and city has population {self.population}"
+
+town_1 = City("Kharkiv", 6000000)
+print(town_1)
+town_2 = City("Burshtyn", 1000)
+print(town_2)
+
 # 9. Override a printable string representation of the City class and return: The population of the city {name} is {population}
 print('\ntask_9')
 # 10*. Override magic method __add__() to perform the additional action as 'multiply' (*) the value which is greater than 10. And perform this add (+) of two instances.
