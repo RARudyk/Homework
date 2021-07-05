@@ -203,3 +203,18 @@ print(task_11(3,7))
 # bool(order_2)
 # False
 print('\ntask_12')
+class MyOrder:
+    def __init__(self, cart, customer):
+        self.cart = cart
+        self.customer = customer
+    def __bool__(self):
+        if len(self.cart) > 0:
+            return True
+        else:
+            return False
+
+
+order_1 = MyOrder(['a', 'b', 'c'], 'd')
+order_2 = MyOrder([], 'a')
+print(bool(order_1))
+print(bool(order_2))
