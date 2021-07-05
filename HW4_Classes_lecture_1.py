@@ -164,11 +164,35 @@ print(town_2)
 
 # 10*. Override magic method __add__() to perform the additional action as 'multiply' (*) the value which is greater than 10. And perform this add (+) of two instances.
 print('\ntask_10')
+
+class Math:
+    def __init__(self, a):
+        self.a = a
+    def __add__(self, other):
+        if self.a > 10 and other.a > 10:
+            return self.a * other.a
+        else:
+            return self.a + other.a
+
+
+obj1 = Math(11)
+obj2 = Math(12)
+obj3 = (obj1 + obj2)
+print(obj3)
+
+
 # 11. The __call__ method enables Python programmers to write classes where the instances behave like functions and can be called like a function.
-print('\ntask_11')
 # Create a new class with __call__ method and define this call to return sum.
+print('\ntask_11')
+class adding:
+    def __call__(self, a, b):
+        resalt = (a + b)
+        return resalt
+
+task_11 =adding()
+print(task_11(3,7))
+
 # 12*. Making Your Objects Truthy or Falsey Using __bool__().
-print('\ntask_12')
 # Create class MyOrder with cart and customer instance attributes.
 # Override the __bool__magic method considered to be truthy if the length of the cart list is non-zero.
 # e.g.:
@@ -178,3 +202,4 @@ print('\ntask_12')
 # True
 # bool(order_2)
 # False
+print('\ntask_12')
