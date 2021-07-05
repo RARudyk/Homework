@@ -10,9 +10,10 @@ print(id(int_a),id(str_b),id(set_c),id(lst_d),id(dict_e))
 
 #2. Append 4 and 5 to the lst_d and define the id one more time.
 print('\ntask_2')
-b22 = [4, 5]
-lst_d1 = lst_d.append(b22)
-print(id(lst_d1))
+lst_d.append(4)
+lst_d.append(5)
+print(id(lst_d))
+print((lst_d))
 
 #3. Define the type of each object from step 1.
 print('\ntask_3')
@@ -163,7 +164,8 @@ def foo(x, y):
 
 #18. Convert (7) to lambda function
 print('\ntask_18')
-foo_7 = lambda x, y : x if(x < y) else y
+#foo_7 = lambda x, y : x if(x < y) else y
+print(foo(3, 5))
 
 print('next task-- >19')
 #(8)
@@ -211,7 +213,7 @@ print(result_24)
 
 #25. Use filter and lambda to filter the number of a lst_to_sort with elem % 2 == 1.
 print('\ntask_25')
-result_25 = list(filter(lambda x: x % 2 == 1, lst_to_sort))
+result_25 = list(filter(lambda x: (x % 2 == 1), lst_to_sort))
 print(result_25)
 
 #26. Considering the range of values: b = range(-10, 10), use the function filter to return only negative numbers.
@@ -230,5 +232,7 @@ list_2 = [2,3,5,6,7,8]
 result_27 = list(filter(lambda x: x in list_2, list_1))
 print(result_27)
 
+new_filter_list = list(filter(lambda x:list_2.count(x) > 0, list_1))
+print(new_filter_list)
 #result_27_1 = list([x for x in list_1 if x in list_2])
 #print(result_27_1)
