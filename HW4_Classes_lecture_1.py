@@ -59,6 +59,7 @@ print(isinstance(Bohdan, Bus))
 print('\ntask_4')
 # print(issubclass(School_bus, vehicle))
 # print(isinstance(School_bus, vehicle))
+print(issubclass(Bus, vehicle))
 
 # 5. Create a new class School with get_school_id and number_of_students instance attributes
 print('\ntask_5')
