@@ -57,7 +57,6 @@ class Fruits:
 
 class Tomato(Vegetables):
     def __init__(self, vegetable_type, number_of_tomatoes):
-        # super(Vegetables, self).__init__(vegetables_type)
         Vegetables.__init__(self, vegetable_type)
         self.number_of_tomatoes = number_of_tomatoes
         self.states = 0
@@ -73,13 +72,6 @@ class Tomato(Vegetables):
 
     def is_ripe(self):
         return self.states == 3
-
-    """
-    def is_ripe(self):
-        if self.states == 3:
-            return True
-        return Fasle
-    """
 
 
 class Apple(Fruits):
@@ -103,24 +95,18 @@ class Apple(Fruits):
 
 class TomatoBush:
     def __init__(self, number_of_tomatoes):
-        # lst = []
-        # for num in range(number_of_tomatoes):
-        #   tamato = Tomatoes('Cherry', num)
-        #   t1 = Tomatoes('Cerry',1)
-        #    lst.append(t1)
         self.tomatoes = [Tomato('Cherry', index) for index in range(0, number_of_tomatoes - 1)]
 
     def growth_all(self):
         for tomato in self.tomatoes:
             tomato.growth()
 
-            # def all_are_ripe(self):
-            #   lst = []
-            #   for tomato in self.tomatoes:
-            #     ripe_state = tomato.is_ripe()
-            #       lst.append(ripe_state)
-            #   return all(lst) # якщо всі дозрілі True якщо ні False
-            # потрібний лише результат True or False
+    # def all_are_ripe(self):
+    #   lst = []
+    #   for tomato in self.tomatoes:
+    #     ripe_state = tomato.is_ripe()
+    #       lst.append(ripe_state)
+    #   return all(lst)
 
     def all_are_ripe(self):
         return all([tomato.is_ripe() for tomato in self.tomatoes])
@@ -175,3 +161,17 @@ John.work()
 John.harvest()
 print(tomato1.tomatoes)
 print(apple_tree1.apples)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
