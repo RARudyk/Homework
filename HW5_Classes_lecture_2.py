@@ -242,6 +242,16 @@ st = Student('667','Roman')
 st.Student_email = 'r.a.rudyk@gmail.com'
 print(st.Student_email)
 
+
+
+class Student1:
+    id = 0
+    name = ""
+
+em = Student1
+em.email = getattr(Student1, 'email', 'r.a.rudyk@gmail.com')
+print(em.email)
+
 #11*.
 print('\nTask 10')
 """
