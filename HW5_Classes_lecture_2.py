@@ -277,7 +277,11 @@ class Celsius:
     def fahrenheit(self):
         return ((self._temperature * 1.8) + 32)
 
-    def fahrenheit(self, object):
-        self._temperature = object
-        
+
+obj = Celsius()
+obj.temperature = 34
+obj.fahrenheit
+print(f'{obj.temperature}-{obj.fahrenheit}')
+
+
 
