@@ -281,6 +281,9 @@ apple_tree1.pests_eat_apple()
 tomato_pests = TomatoPests('Worm', 10)
 tomato_pests.raise_pests()
 tomato_pests.raise_pests()
+
+tomato1.pests_eat_tomato()
+
 tomato_pests.poison_pests()
 
 John.harvest()
