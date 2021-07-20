@@ -26,3 +26,22 @@ with open("task1_sub.txt", "w") as text2:
 
 with open(r"task1_sub.txt") as text2:
     print(text2.read())
+
+# Task 2
+# в файлі task2 збережений список, відкрийте цей файл, прочитайте вміст, і
+# знайдіть середнє арифметичне чисел що знаходяться в списку
+
+
+import pickle
+
+file = open(r"task2", "rb")
+value = pickle.load(file)
+
+print(value)
+average = sum(value) / len(value)
+print(average)
+
+# Task 3
+# Використовуючи openpyxl (або будь-яку іншу зручну для вас бібліотеку),
+# напишіть контекстний менеджер для роботи з ексель.
+# Даний менеджер повинен бути аналогом методу open()
