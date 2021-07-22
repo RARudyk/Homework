@@ -45,3 +45,34 @@ print(average)
 # Використовуючи openpyxl (або будь-яку іншу зручну для вас бібліотеку),
 # напишіть контекстний менеджер для роботи з ексель.
 # Даний менеджер повинен бути аналогом методу open()
+
+
+import xlsxwriter
+
+
+class CreateWorkbook:
+    def __init__(self, filepath):
+        self.file_obj = xlsxwriter.Workbook(filepath)
+
+    def __enter__(self):
+        return self.file_obj
+
+    def __exit__(self, f_type, f_value, f_traceback):
+        self.file_obj.close()
+
+
+with CreateWorkbook("homework.xlsx") as file:
+    currency_format = file.add_format({'num_format': '$#,##0.00'})
+    create_ws1 = file.add_worksheet("Start")
+    create_ws2 = file.add_worksheet("Base")
+    print(file.sheetnames)
+    create_ws1.write(0, 0, "Hello")
+    create_ws1.write(0, 1, "World!")
+    create_ws1.write(0, 2, '=A1&" "&B1')
+    create_ws1.write_comment(0, 0, 'This is very interesting library')
+
+    create_ws2.write("A1", 23)
+    create_ws2.write("A2", 3)
+    create_ws2.write("A3", 12)
+    create_ws2.write("A4", '=SUM(A1:A3)', currency_format)
+    # file.close()
