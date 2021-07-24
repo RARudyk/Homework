@@ -1,0 +1,20 @@
+2021-07-24 13:56:10,383 - INFO - calling sum_func
+2021-07-24 14:05:15,963 - INFO - calling add_func
+2021-07-24 14:05:22,038 - INFO - calling add_func
+2021-07-24 14:06:40,423 - INFO - add is successfully finished, 1, 2
+2021-07-24 14:07:05,506 - INFO - calling add_func
+2021-07-24 14:07:10,035 - ERROR - not decimal first number to sum
+2021-07-24 14:11:49,396 - INFO - calling add_func
+2021-07-24 14:11:55,986 - INFO - add is successfully finished, 1, 2
+2021-07-24 14:11:55,986 - INFO - calling subtraction
+2021-07-24 14:59:41,420 - INFO - calling percentage
+2021-07-24 14:59:47,663 - INFO - percentage is successfully finished, 3, 4
+2021-07-24 15:02:32,472 - INFO - calling add_func
+2021-07-24 15:05:46,946 - INFO - calling add_func
+2021-07-24 15:06:04,465 - INFO - calling add_func
+2021-07-24 15:06:10,219 - INFO - add is successfully finished, 2, 3
+2021-07-24 15:06:10,220 - INFO - calling subtraction
+2021-07-24 15:07:58,362 - INFO - calling add_func
+2021-07-24 15:08:01,627 - INFO - add is successfully finished, 1, 2
+2021-07-24 15:08:13,772 - INFO - calling subtraction
+2021-07-24 15:08:16,576 - INFO - subtraction is successfully finished, 2, 3
