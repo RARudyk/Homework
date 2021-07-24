@@ -169,7 +169,7 @@ def root():
         return c
     except ZeroDivisionError:
         print("b is 0, can't get root, ZeroDivisionError")
-        logging.error('trying to divide by zero (in degree)')
+        logging.error('trying to divide(devision) by zero (in degree)')
         return
 
 
@@ -226,7 +226,7 @@ while True:
         break
     else:
         print("What you doings BRO")
-        logging.error('BRO is very exrtaordinary')
+        logging.error('BRO is very extraordinary')
 
 
 # Task 2
@@ -267,3 +267,11 @@ class NoWater(Exception):
 class AlmostFilledGarbage(Exception):
     pass
 
+class VacuumRob:
+    energy_loss = 1
+    water_loss = 1
+
+    def __init__(self, battery_charge_level, garbage_fullness, water_level):
+        self.battery_charge_level = battery_charge_level
+        self.garbage_fullness = garbage_fullness
+        self.water_level = water_level
