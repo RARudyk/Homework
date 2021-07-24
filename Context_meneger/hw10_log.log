@@ -18,3 +18,17 @@
 2021-07-24 15:08:01,627 - INFO - add is successfully finished, 1, 2
 2021-07-24 15:08:13,772 - INFO - calling subtraction
 2021-07-24 15:08:16,576 - INFO - subtraction is successfully finished, 2, 3
+2021-07-24 15:59:07,213 - INFO - calling subtraction
+2021-07-24 15:59:09,639 - INFO - subtraction is successfully finished, 2, 2
+2021-07-24 15:59:38,051 - INFO - calling division
+2021-07-24 15:59:39,208 - INFO - division is successfully finished, 4, 4
+2021-07-24 16:00:40,051 - INFO - calling exaltation
+2021-07-24 16:00:41,877 - INFO - exaltation is successfully finished, 5, 5
+2021-07-24 16:01:11,988 - INFO - calling percentage
+2021-07-24 16:01:13,472 - INFO - percentage is successfully finished, 7, 7
+2021-07-24 20:14:42,852 - INFO - calling exaltation
+2021-07-24 20:14:45,984 - INFO - exaltation is successfully finished, 4, 5
+2021-07-24 20:16:27,735 - INFO - calling root
+2021-07-24 20:16:28,435 - INFO - root is successfully finished, 6, 6
+2021-07-24 20:18:15,346 - INFO - calling percentage
+2021-07-24 20:18:16,318 - INFO - percentage is successfully finished, 7, 7
