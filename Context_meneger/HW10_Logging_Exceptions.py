@@ -202,6 +202,7 @@ def percentage():
 # exaltation()
 # root()
 # percentage()
+print('1 - add,\n2 - subtraction,\n3 - multiplication,\n4 - division,\n5 - exaltation,\n6 - root,\n7 - percentage')
 
 while True:
     # Take input from the user

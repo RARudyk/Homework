@@ -32,3 +32,5 @@
 2021-07-24 20:16:28,435 - INFO - root is successfully finished, 6, 6
 2021-07-24 20:18:15,346 - INFO - calling percentage
 2021-07-24 20:18:16,318 - INFO - percentage is successfully finished, 7, 7
+2021-07-26 20:21:32,909 - INFO - calling root
+2021-07-26 20:21:40,886 - INFO - root is successfully finished, 9, 2
