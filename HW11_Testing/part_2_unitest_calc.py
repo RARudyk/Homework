@@ -43,7 +43,5 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(Calc.root(121), 11)
 
 
-
-
 if __name__ == '__main__':
     unittest.main()
