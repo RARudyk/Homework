@@ -34,3 +34,20 @@ hy = view_hypo(hypo(1, 4))
 # повертає список цілих чисел від 0 до n.
 # Написати до цієї функції декоратор який всі елементи отриманого
 # списку переведе в строковий тип даних
+def decor_for_int(integer_):
+    def wrap():
+        return [str(n) for n in integer_()]
+    return wrap
+
+
+@decor_for_int
+def integer():
+    new_list = []
+    inp = int(input('Please input your number: '))
+    for n in range(inp):
+        new_list.append(n)
+    # result = [new_list.append(n) for n in range(inp)]
+    return new_list
+
+
+print(integer())
