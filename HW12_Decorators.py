@@ -12,20 +12,19 @@
 def view_hypo(hypo_):
     def wrap(x, y):
         # result = (x ** 2 + y ** 2) ** 0.5
-        print(f'In legs {x} , {y} the hypotenuse is equal to : ')
-        hypo_(x, y)
+        print(f'In legs {x} , {y} the hypotenuse is equal to : {hypo_(x, y)}')
     return wrap
 
 
 @view_hypo
 def hypo(x, y):
     hypotenuse = (x ** 2 + y ** 2) ** 0.5
-    return print(hypotenuse)
+    return hypotenuse
 
 
 hy = view_hypo(hypo(1, 4))
 
-print(hy)
+# print(hy)
 
 
 # 3. Написати функцію яка приймає список елементів і знаходить суму,
