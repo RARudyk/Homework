@@ -1,7 +1,30 @@
 # 1. Написати функцію яка в циклі зчитує з консолі
 # введені користувачем дані і записує їх в список.
 # Написати декоратор який видасть час виконання роботи функції
-#
+import time
+
+
+def work_time(write):
+    def wrap(*args, **kwargs):
+        t1 = time.time()
+        result = write(*args, **kwargs)
+        print(time.time() - t1)
+        return result
+
+    return wrap
+
+
+@work_time
+def write_word():
+    text = input("Please write your text, number or cancel with Exit: ")
+    new_list = []
+    while text != 'Exit':
+        new_list.append(text)
+    return new_list
+
+
+write_word()
+
 # 2. Написати функцію яка приймає два катети і повертає
 # значення гіпотензузи. Написати декоратор на функцію,
 # який виводить на екран текст з довжиною катетів і гіпотенузи.
