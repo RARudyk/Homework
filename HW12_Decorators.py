@@ -16,14 +16,16 @@ def work_time(write):
 
 @work_time
 def write_word():
-    text = input("Please write your text, number or cancel with Exit: ")
     new_list = []
-    while text != 'Exit':
+    text = input("Please write your text, number or cancel with Exit == E: ")
+    while text:
         new_list.append(text)
+        if input() == 'E':
+            break
     return new_list
 
 
-write_word()
+work_time(write_word())
 
 # 2. Написати функцію яка приймає два катети і повертає
 # значення гіпотензузи. Написати декоратор на функцію,
