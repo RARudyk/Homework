@@ -55,19 +55,26 @@ hy = view_hypo(hypo(1, 4))
 # але якщо є строка яку можна перевести в число,
 # (наприклад “1”) то строка приводиться до чисельного типу даних
 
-def filter_add(add_):
-    def wrap(list_):
-        new_list = []
+def filter_list(add_):
+    def wrap(x):
+        res = []
+        for ele in x:
+            try:
+                res.append(float(ele))
+            except ValueError:
+                continue
+        return add_(res)
     return wrap
 
 
-list_ad = [1, 2, 2.3, 4, "4"]
+@filter_list
+def add_list(lis):
+    return sum(lis)
 
 
-def add_list(list_ad):
-    return sum(list_ad)
+list_ad = ['gfg', '45.45', 'is', '87.5', 'best', '90.34']
 
-
+print(add_list(list_ad))
 
 
 # 4. Написати функцію яка приймає на вхід ціле число n створює і
