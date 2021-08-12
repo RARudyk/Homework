@@ -12,9 +12,9 @@
 def likes(names):
     # your code here
     for x in names:
-        if not bool(names):
+        if len(x) == 0:
             print("[],  no one likes this")
-        elif len(x) > 0 and len(x) >= 1:
+        elif len(x) >= 1:
             return print(str(names) + f", {names[0]} likes this")
         elif len(x) > 1 and len(x) >= 2:
             return print(str(names) + f", {names[0]} and {names[1]} like this")
@@ -24,19 +24,20 @@ def likes(names):
             return print(str(names) + f", {names[0]}, {names[1]} and {len(names) - 2} others like this")
         else:
             print("[],  no one likes this")
+    return print("[],  no one likes this")
 
 
 lis_0 = []
-# lis_1 = ['Peter']
-# lis_2 = ['Jacob', 'Alex']
-# lis_3 = ['Max', 'John', 'Mark']
-# lis_4 = ['Alex', 'Jacob', 'Mark', 'Max']
+lis_1 = ['Peter']
+lis_2 = ['Jacob', 'Alex']
+lis_3 = ['Max', 'John', 'Mark']
+lis_4 = ['Alex', 'Jacob', 'Mark', 'Max']
 
 likes(lis_0)
-# likes(lis_1)
-# likes(lis_2)
-# likes(lis_3)
-# likes(lis_4)
+likes(lis_1)
+likes(lis_2)
+likes(lis_3)
+likes(lis_4)
 
 
 
