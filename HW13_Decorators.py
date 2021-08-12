@@ -91,7 +91,7 @@ def decor_for_int(integer_):
 def integer():
     new_list = []
     inp = int(input('Please input your number: '))
-    for n in range(inp):
+    for n in range(inp + 1):
         new_list.append(n)
     # result = [new_list.append(n) for n in range(inp)]
     return new_list
