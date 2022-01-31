@@ -35,3 +35,6 @@ def test_oo2(get_fail_res):
 
 # if __name__ == '__main__':
 #     test_oo1()
+
+
+print(2 - 2)
