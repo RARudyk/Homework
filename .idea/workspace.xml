@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d5b1fa67-084d-4fef-8298-3b4887698822" name="Default Changelist" comment="solution task codewars_1 likes">
+      <change beforePath="$PROJECT_DIR$/codewars_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Unit Test" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="main" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="671f94b6-ba38-46c5-96fa-4f6958cb6822" />
+        <option name="url" value="git@github.com:RARudyk/Homework.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Context_meneger/HW10_Logging_Exceptions.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="1uj1YKB8xxdBh4eTi9EQtkW8MtP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Context_meneger" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.HW13_Decorators">
+    <configuration name="HW13_Decorators" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Homework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW13_Decorators.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="codewars_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codewars_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="decor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Homework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/decor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="decor_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Homework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/decor_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in /home/rrudyk/progect/Homework/test_dd.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Homework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_dd.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.codewars_1" />
+        <item itemvalue="Python.HW13_Decorators" />
+        <item itemvalue="Python.decor_2" />
+        <item itemvalue="Python.decor" />
+        <item itemvalue="Python tests.Python tests in /home/rrudyk/progect/Homework/test_dd.py" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d5b1fa67-084d-4fef-8298-3b4887698822" name="Default Changelist" comment="" />
+      <created>1625164235644</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625164235644</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Adding tasks from ten to elevent">
+      <created>1625507933915</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1625507933915</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Adding last task 12">
+      <created>1625509349722</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1625509349722</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Checking task 2">
+      <created>1625518183366</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1625518183366</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Checking task 4">
+      <created>1625652728483</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1625652728483</updated>
+    </task>
+    <task id="LOCAL-00015" summary="creating solution for task fron one to three">
+      <created>1625655603655</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1625655603655</updated>
+    </task>
+    <task id="LOCAL-00016" summary="creating solution for task fron four to seven">
+      <created>1625692241831</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1625692241831</updated>
+    </task>
+    <task id="LOCAL-00017" summary="creating solution for task from  eight to ten">
+      <created>1625777978882</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1625777978882</updated>
+    </task>
+    <task id="LOCAL-00018" summary="checking task 10">
+      <created>1625810272116</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1625810272116</updated>
+    </task>
+    <task id="LOCAL-00019" summary="checking task 11">
+      <created>1625847406366</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1625847406366</updated>
+    </task>
+    <task id="LOCAL-00020" summary="create garden_practice">
+      <created>1625853976898</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1625853976898</updated>
+    </task>
+    <task id="LOCAL-00021" summary="finished homework number six, create class Pests(apple and tomato) with methods inside it: growth, eaten plants, and destruction them">
+      <created>1626371713932</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1626371713932</updated>
+    </task>
+    <task id="LOCAL-00022" summary="finished homework number six, create class Pests(apple and tomato) with methods inside it: growth, eaten plants, and destruction them, checking">
+      <created>1626371972682</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1626371972682</updated>
+    </task>
+    <task id="LOCAL-00023" summary="add task1">
+      <created>1626775851918</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1626775851918</updated>
+    </task>
+    <task id="LOCAL-00024" summary="create new directory">
+      <created>1626776053091</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1626776053091</updated>
+    </task>
+    <task id="LOCAL-00025" summary="create solution for first task">
+      <created>1626777449238</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1626777449238</updated>
+    </task>
+    <task id="LOCAL-00026" summary="create solution for first task">
+      <created>1626777474147</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1626777474147</updated>
+    </task>
+    <task id="LOCAL-00027" summary="adding solution for second task">
+      <created>1626777998324</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1626777998324</updated>
+    </task>
+    <task id="LOCAL-00028" summary="lecture 20_07_2021">
+      <created>1626804330746</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1626804330746</updated>
+    </task>
+    <task id="LOCAL-00029" summary="created last task three, used library &quot;xlsxwriter&quot;, it has many interesting functions">
+      <created>1626979699815</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1626979699815</updated>
+    </task>
+    <task id="LOCAL-00030" summary="start work with homework &quot;Logging_Exception&quot;? create task 1">
+      <created>1627035661821</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1627035661821</updated>
+    </task>
+    <task id="LOCAL-00031" summary="completing task &quot;create calculator&quot; finished +">
+      <created>1627128962831</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1627128962831</updated>
+    </task>
+    <task id="LOCAL-00032" summary="add log file">
+      <created>1627129128332</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1627129128332</updated>
+    </task>
+    <task id="LOCAL-00033" summary="start working with task 2">
+      <created>1627129281656</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1627129281656</updated>
+    </task>
+    <task id="LOCAL-00034" summary="create class VacuumRob">
+      <created>1627130049322</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1627130049322</updated>
+    </task>
+    <task id="LOCAL-00035" summary="create class">
+      <created>1627147197254</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1627147197254</updated>
+    </task>
+    <task id="LOCAL-00036" summary="start working with homework #8, create classes Animal, Forest">
+      <created>1627151380650</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1627151380650</updated>
+    </task>
+    <task id="LOCAL-00037" summary="create Predators, predators hunting on booty and if he catch her, he has food">
+      <created>1627193721722</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1627193721722</updated>
+    </task>
+    <task id="LOCAL-00038" summary="write description calculator functions">
+      <created>1627320162817</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1627320162817</updated>
+    </task>
+    <task id="LOCAL-00039" summary="start work with task 11 for homework 11">
+      <created>1627380924996</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1627380924996</updated>
+    </task>
+    <task id="LOCAL-00040" summary="adding calculator from lecture 11">
+      <created>1627382800127</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1627382800127</updated>
+    </task>
+    <task id="LOCAL-00041" summary="add three methods, percent, raise number to the power, square root">
+      <created>1627383643207</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1627383643207</updated>
+    </task>
+    <task id="LOCAL-00042" summary="create doctest for all method">
+      <created>1627400244247</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1627400244247</updated>
+    </task>
+    <task id="LOCAL-00043" summary="add part 2 unitest">
+      <created>1627402035689</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1627402035689</updated>
+    </task>
+    <task id="LOCAL-00044" summary="check unitest">
+      <created>1627405585312</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1627405585312</updated>
+    </task>
+    <task id="LOCAL-00045" summary="start work with homework &quot;Decorators&quot;">
+      <created>1627898861668</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1627898861668</updated>
+    </task>
+    <task id="LOCAL-00046" summary="creating function with calculate value hypotenuse with decorator print text which included incoming information">
+      <created>1627924642582</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1627924642582</updated>
+    </task>
+    <task id="LOCAL-00047" summary="update task 2">
+      <created>1628011164582</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1628011164582</updated>
+    </task>
+    <task id="LOCAL-00048" summary="update task 2">
+      <created>1628011222078</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1628011222078</updated>
+    </task>
+    <task id="LOCAL-00049" summary="added forth task , created function for input number, after that will create list from 0 to input number">
+      <created>1628016279421</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1628016279421</updated>
+    </task>
+    <task id="LOCAL-00050" summary="start work with task one">
+      <created>1628017550846</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1628017550847</updated>
+    </task>
+    <task id="LOCAL-00051" summary="test file">
+      <created>1628017581805</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1628017581806</updated>
+    </task>
+    <task id="LOCAL-00052" summary="ended first task">
+      <created>1628056604624</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1628056604625</updated>
+    </task>
+    <task id="LOCAL-00053" summary="start work with task three">
+      <created>1628160501287</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1628160501288</updated>
+    </task>
+    <task id="LOCAL-00054" summary="create task three">
+      <created>1628184880379</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1628184880380</updated>
+    </task>
+    <task id="LOCAL-00055" summary="rename homework decorators">
+      <created>1628185002633</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1628185002634</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Change task 4 replace &#10;(for n in range(int))&#10;on &#10;(for n in range(int + 1))">
+      <created>1628790886165</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1628790886167</updated>
+    </task>
+    <task id="LOCAL-00057" summary="solution task codewars_1 likes">
+      <created>1628791464051</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1628791464051</updated>
+    </task>
+    <task id="LOCAL-00058" summary="solution task codewars_1 likes">
+      <created>1643532892808</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1643532892809</updated>
+    </task>
+    <task id="LOCAL-00059" summary="solution task codewars_1 likes">
+      <created>1643533864575</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1643533864575</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add log file" />
+    <MESSAGE value="start working with task 2" />
+    <MESSAGE value="create class VacuumRob" />
+    <MESSAGE value="create class" />
+    <MESSAGE value="start working with homework #8, create classes Animal, Forest" />
+    <MESSAGE value="create Predators, predators hunting on booty and if he catch her, he has food" />
+    <MESSAGE value="write description calculator functions" />
+    <MESSAGE value="start work with task 11 for homework 11" />
+    <MESSAGE value="adding calculator from lecture 11" />
+    <MESSAGE value="add three methods, percent, raise number to the power, square root" />
+    <MESSAGE value="create doctest for all method" />
+    <MESSAGE value="add part 2 unitest" />
+    <MESSAGE value="check unitest" />
+    <MESSAGE value="start work with homework &quot;Decorators&quot;" />
+    <MESSAGE value="creating function with calculate value hypotenuse with decorator print text which included incoming information" />
+    <MESSAGE value="update task 2" />
+    <MESSAGE value="added forth task , created function for input number, after that will create list from 0 to input number" />
+    <MESSAGE value="start work with task one" />
+    <MESSAGE value="test file" />
+    <MESSAGE value="ended first task" />
+    <MESSAGE value="start work with task three" />
+    <MESSAGE value="create task three" />
+    <MESSAGE value="rename homework decorators" />
+    <MESSAGE value="Change task 4 replace &#10;(for n in range(int))&#10;on &#10;(for n in range(int + 1))" />
+    <MESSAGE value="solution task codewars_1 likes" />
+    <option name="LAST_COMMIT_MESSAGE" value="solution task codewars_1 likes" />
+  </component>
+</project>
