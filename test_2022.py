@@ -26,3 +26,15 @@ man_say_1 = "Він сказав: 'там в'ється бур'ян дерев'�
 print(man_say_1)
 man_say_2 = '''Він сказав: "там в'ється бур'ян дерев'яним п'єдесталом."'''
 print(man_say_2)
+
+degrees = 14
+text = "today is %s degrees"
+print(text % degrees)
+
+temperature = 34
+text_1 = "today is wednesday and enough hot air, temperature is more than %s degrees celsius "
+print(text_1 % temperature)
+print(text_1 % degrees)
+text_2 = "my weight is less than %s, but more than %s kilograms"
+print(text_2 % (temperature, degrees))
+
