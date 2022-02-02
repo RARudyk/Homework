@@ -38,3 +38,21 @@ print(text_1 % degrees)
 text_2 = "my weight is less than %s, but more than %s kilograms"
 print(text_2 % (temperature, degrees))
 
+indent = ' ' * 20
+indent_1 = ' ' * 5
+indent_2 = ' ' * 2
+text_3 = '%s V.Velykhoge corner, 12'
+text_4 = '%s Frankivskyi regin '
+text_5 = '%s village Zadnistrjansk'
+text_6 = '%s Application'
+text_7 = '%s My dear friends, my name is mr.Roman. \n I am from Burshtyn, small town with energetic people.'
+print(text_3 % indent)
+print(text_4 % indent)
+print(text_5 % indent)
+print(text_6 % indent_1)
+print(text_7 % indent_2)
+
+
+
+
+
