@@ -50,6 +50,39 @@ del fibonacci[4]
 TypeError: 'tuple' object doesn't support item deletion
 '''
 
+'''
+Dictionary  Dict = { 'Key' : 'Text'} 
+'''
+
+cost_products = {'apple': '35.30',
+                 'pear': '53.70',
+                 'grape': '73',
+                 'tomato': '49'}
+
+print(cost_products)
+print(cost_products['pear'])
+
+cost_products['pear'] = '555'
+print(cost_products)
+del cost_products['pear']
+print(cost_products)
+
+favorite_hobby = 'fishing, hunting, traveling'
+favorite_food = ' beef, apples, pizza'
+task1 = favorite_hobby + favorite_food
+print(task1)
+
+roof = 3
+ninja = 25
+tunnel = 2
+samurai = 40
+print(ninja * roof, 'ninja')
+print(samurai * tunnel, 'samurai')
+
+first_name = 'Roman'
+surname = 'Rudyk'
+text22 = 'Hello, mr. %s %s'
+print(text22 % (first_name, surname))
 
 
 
