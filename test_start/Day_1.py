@@ -1,0 +1,62 @@
+
+import turtle
+'''
+square
+'''
+q = turtle.Pen()
+q.up()
+q.backward(200)
+q.down()
+q.forward(100)
+q.left(90)
+q.forward(100)
+q.left(90)
+q.forward(100)
+q.left(90)
+q.forward(100)
+q.left(90)
+'''
+equilateral triangle
+'''
+t = turtle.Pen()
+t.up()
+t.right(90)
+t.forward(250)
+t.left(90)
+t.down()
+t.forward(150)
+t.left(120)
+t.forward(150)
+t.left(120)
+t.forward(150)
+t.left(60)
+'''
+box without corner
+'''
+a = turtle.Pen()
+a.up()
+a.forward(20)
+a.down()
+a.forward(100)
+a.up()
+a.forward(20)
+a.left(90)
+a.forward(20)
+a.down()
+a.forward(100)
+a.up()
+a.forward(20)
+a.left(90)
+a.forward(20)
+a.down()
+a.forward(100)
+a.up()
+a.forward(20)
+a.left(90)
+a.forward(20)
+a.down()
+a.forward(100)
+a.up()
+a.forward(20)
+a.left(90)
+a.down()
