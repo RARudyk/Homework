@@ -52,6 +52,7 @@ TypeError: 'tuple' object doesn't support item deletion
 
 '''
 Dictionary  Dict = { 'Key' : 'Text'} 
+AttributeError: 'dict' object has no attribute 'append'
 '''
 
 cost_products = {'apple': '35.30',
