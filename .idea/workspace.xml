@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5b1fa67-084d-4fef-8298-3b4887698822" name="Default Changelist" comment="learning python restart day 0">
+    <list default="true" id="d5b1fa67-084d-4fef-8298-3b4887698822" name="Default Changelist" comment="learning python restart day 1 library turtle">
+      <change afterPath="$PROJECT_DIR$/test_start/day_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_start/Day_0.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_start/Day_0.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +64,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="advanced.settings" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+      </console-settings>
+    </option>
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -72,7 +79,7 @@
       <recent name="$PROJECT_DIR$/Context_meneger" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Day_0">
+  <component name="RunManager" selected="Python.day_2">
     <configuration name="Day_0" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -86,6 +93,27 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_start/Day_0.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Day_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_start" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_start/Day_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -136,6 +164,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="day_2" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_start" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_start/day_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="decor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -149,27 +198,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/decor.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="decor_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/usr/bin/python3.8" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/decor_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -217,17 +245,19 @@
       <item itemvalue="Python.codewars_1" />
       <item itemvalue="Python.HW13_Decorators" />
       <item itemvalue="Python.decor" />
-      <item itemvalue="Python.decor_2" />
       <item itemvalue="Python.test_2022" />
       <item itemvalue="Python.Day_0" />
+      <item itemvalue="Python.Day_1" />
       <item itemvalue="Python tests.Python tests in /home/rrudyk/progect/Homework/test_dd.py" />
+      <item itemvalue="Python.day_2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.day_2" />
+        <item itemvalue="Python.Day_1" />
         <item itemvalue="Python.Day_0" />
         <item itemvalue="Python.test_2022" />
         <item itemvalue="Python.decor" />
-        <item itemvalue="Python.decor_2" />
       </list>
     </recent_temporary>
   </component>
@@ -242,34 +272,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1625164235644</updated>
-    </task>
-    <task id="LOCAL-00019" summary="checking task 11">
-      <created>1625847406366</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1625847406366</updated>
-    </task>
-    <task id="LOCAL-00020" summary="create garden_practice">
-      <created>1625853976898</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1625853976898</updated>
-    </task>
-    <task id="LOCAL-00021" summary="finished homework number six, create class Pests(apple and tomato) with methods inside it: growth, eaten plants, and destruction them">
-      <created>1626371713932</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1626371713932</updated>
-    </task>
-    <task id="LOCAL-00022" summary="finished homework number six, create class Pests(apple and tomato) with methods inside it: growth, eaten plants, and destruction them, checking">
-      <created>1626371972682</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1626371972682</updated>
     </task>
     <task id="LOCAL-00023" summary="add task1">
       <created>1626775851918</created>
@@ -586,7 +588,35 @@
       <option name="project" value="LOCAL" />
       <updated>1643803123760</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="learning python restart day 1 list and cortege">
+      <created>1643899156599</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1643899156599</updated>
+    </task>
+    <task id="LOCAL-00069" summary="learning python restart day 1 list and cortege">
+      <created>1643899260556</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1643899260556</updated>
+    </task>
+    <task id="LOCAL-00070" summary="learning python restart day 1 list and cortege">
+      <created>1643901036676</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1643901036677</updated>
+    </task>
+    <task id="LOCAL-00071" summary="learning python restart day 1 library turtle">
+      <created>1644164557301</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1644164557301</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -601,8 +631,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="create Predators, predators hunting on booty and if he catch her, he has food" />
-    <MESSAGE value="write description calculator functions" />
     <MESSAGE value="start work with task 11 for homework 11" />
     <MESSAGE value="adding calculator from lecture 11" />
     <MESSAGE value="add three methods, percent, raise number to the power, square root" />
@@ -626,6 +654,8 @@
     <MESSAGE value="return day to learning python" />
     <MESSAGE value="learning python" />
     <MESSAGE value="learning python restart day 0" />
-    <option name="LAST_COMMIT_MESSAGE" value="learning python restart day 0" />
+    <MESSAGE value="learning python restart day 1 list and cortege" />
+    <MESSAGE value="learning python restart day 1 library turtle" />
+    <option name="LAST_COMMIT_MESSAGE" value="learning python restart day 1 library turtle" />
   </component>
 </project>
