@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5b1fa67-084d-4fef-8298-3b4887698822" name="Default Changelist" comment="learning python restart day 1 library turtle">
-      <change afterPath="$PROJECT_DIR$/test_start/day_2.py" afterDir="false" />
+    <list default="true" id="d5b1fa67-084d-4fef-8298-3b4887698822" name="Default Changelist" comment="learning python restart day 0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_start/Day_0.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_start/Day_0.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +79,7 @@
       <recent name="$PROJECT_DIR$/Context_meneger" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.day_2">
+  <component name="RunManager" selected="Python.Day_0">
     <configuration name="Day_0" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -253,9 +253,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Day_0" />
         <item itemvalue="Python.day_2" />
         <item itemvalue="Python.Day_1" />
-        <item itemvalue="Python.Day_0" />
         <item itemvalue="Python.test_2022" />
         <item itemvalue="Python.decor" />
       </list>
@@ -272,27 +272,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1625164235644</updated>
-    </task>
-    <task id="LOCAL-00023" summary="add task1">
-      <created>1626775851918</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1626775851918</updated>
-    </task>
-    <task id="LOCAL-00024" summary="create new directory">
-      <created>1626776053091</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1626776053091</updated>
-    </task>
-    <task id="LOCAL-00025" summary="create solution for first task">
-      <created>1626777449238</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1626777449238</updated>
     </task>
     <task id="LOCAL-00026" summary="create solution for first task">
       <created>1626777474147</created>
@@ -616,7 +595,28 @@
       <option name="project" value="LOCAL" />
       <updated>1644164557301</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="learning python restart day 2">
+      <created>1644418217086</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1644418217087</updated>
+    </task>
+    <task id="LOCAL-00073" summary="learning python restart day 2">
+      <created>1644418258918</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1644418258919</updated>
+    </task>
+    <task id="LOCAL-00074" summary="learning python restart day 0">
+      <created>1644418615004</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1644418615005</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -631,7 +631,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="start work with task 11 for homework 11" />
     <MESSAGE value="adding calculator from lecture 11" />
     <MESSAGE value="add three methods, percent, raise number to the power, square root" />
     <MESSAGE value="create doctest for all method" />
@@ -653,9 +652,10 @@
     <MESSAGE value="start new day" />
     <MESSAGE value="return day to learning python" />
     <MESSAGE value="learning python" />
-    <MESSAGE value="learning python restart day 0" />
     <MESSAGE value="learning python restart day 1 list and cortege" />
     <MESSAGE value="learning python restart day 1 library turtle" />
-    <option name="LAST_COMMIT_MESSAGE" value="learning python restart day 1 library turtle" />
+    <MESSAGE value="learning python restart day 2" />
+    <MESSAGE value="learning python restart day 0" />
+    <option name="LAST_COMMIT_MESSAGE" value="learning python restart day 0" />
   </component>
 </project>
