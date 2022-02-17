@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5b1fa67-084d-4fef-8298-3b4887698822" name="Default Changelist" comment="learning python restart day 0">
-      <change afterPath="$PROJECT_DIR$/test_start/day_3.py" afterDir="false" />
+    <list default="true" id="d5b1fa67-084d-4fef-8298-3b4887698822" name="Default Changelist" comment="learning python restart day 3&#10;for - loop">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_start/day_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_start/day_3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +25,12 @@
     <option name="NEW_BASE" value="main" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="main" />
@@ -248,8 +254,8 @@
       <item itemvalue="Python.Day_0" />
       <item itemvalue="Python.Day_1" />
       <item itemvalue="Python.day_2" />
-      <item itemvalue="Python tests.Python tests in /home/rrudyk/progect/Homework/test_dd.py" />
       <item itemvalue="Python.day_3" />
+      <item itemvalue="Python tests.Python tests in /home/rrudyk/progect/Homework/test_dd.py" />
     </list>
     <recent_temporary>
       <list>
@@ -272,20 +278,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1625164235644</updated>
-    </task>
-    <task id="LOCAL-00028" summary="lecture 20_07_2021">
-      <created>1626804330746</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1626804330746</updated>
-    </task>
-    <task id="LOCAL-00029" summary="created last task three, used library &quot;xlsxwriter&quot;, it has many interesting functions">
-      <created>1626979699815</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1626979699815</updated>
     </task>
     <task id="LOCAL-00030" summary="start work with homework &quot;Logging_Exception&quot;? create task 1">
       <created>1627035661821</created>
@@ -616,7 +608,21 @@
       <option name="project" value="LOCAL" />
       <updated>1644418984883</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="learning python restart day 3&#10;for - loop">
+      <created>1644509912703</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1644509912703</updated>
+    </task>
+    <task id="LOCAL-00078" summary="learning python restart day 3&#10;for - loop">
+      <created>1644509932690</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1644509932690</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -631,7 +637,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="adding calculator from lecture 11" />
     <MESSAGE value="add three methods, percent, raise number to the power, square root" />
     <MESSAGE value="create doctest for all method" />
     <MESSAGE value="add part 2 unitest" />
@@ -656,6 +661,7 @@
     <MESSAGE value="learning python restart day 1 library turtle" />
     <MESSAGE value="learning python restart day 2" />
     <MESSAGE value="learning python restart day 0" />
-    <option name="LAST_COMMIT_MESSAGE" value="learning python restart day 0" />
+    <MESSAGE value="learning python restart day 3&#10;for - loop" />
+    <option name="LAST_COMMIT_MESSAGE" value="learning python restart day 3&#10;for - loop" />
   </component>
 </project>
