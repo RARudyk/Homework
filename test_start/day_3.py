@@ -60,6 +60,8 @@ for age_1 in range(0, 38):
         print(age_end)
     else:
         break
+
+
 #t3
 y = 0
 ingredients = ['apple', 'pain', 'peach', 'watermelon', 'strawberry', 'raspberry']
