@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5b1fa67-084d-4fef-8298-3b4887698822" name="Default Changelist" comment="learning python restart day 3&#10;while - loop" />
+    <list default="true" id="d5b1fa67-084d-4fef-8298-3b4887698822" name="Default Changelist" comment="learning python restart day 3&#10;while - loop">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -245,13 +247,13 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.codewars_1" />
+      <item itemvalue="Python.HW13_Decorators" />
+      <item itemvalue="Python.test_2022" />
       <item itemvalue="Python.Day_0" />
       <item itemvalue="Python.Day_1" />
-      <item itemvalue="Python.HW13_Decorators" />
-      <item itemvalue="Python.codewars_1" />
       <item itemvalue="Python.day_2" />
       <item itemvalue="Python.day_3" />
-      <item itemvalue="Python.test_2022" />
       <item itemvalue="Python tests.Python tests in /home/rrudyk/progect/Homework/test_dd.py" />
     </list>
     <recent_temporary>
@@ -275,13 +277,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1625164235644</updated>
-    </task>
-    <task id="LOCAL-00033" summary="start working with task 2">
-      <created>1627129281656</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1627129281656</updated>
     </task>
     <task id="LOCAL-00034" summary="create class VacuumRob">
       <created>1627130049322</created>
@@ -619,7 +614,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651435029704</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="learning python restart day 3&#10;while - loop">
+      <created>1655129893080</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1655129893081</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
