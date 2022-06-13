@@ -245,13 +245,13 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.codewars_1" />
-      <item itemvalue="Python.HW13_Decorators" />
-      <item itemvalue="Python.test_2022" />
       <item itemvalue="Python.Day_0" />
       <item itemvalue="Python.Day_1" />
+      <item itemvalue="Python.HW13_Decorators" />
+      <item itemvalue="Python.codewars_1" />
       <item itemvalue="Python.day_2" />
       <item itemvalue="Python.day_3" />
+      <item itemvalue="Python.test_2022" />
       <item itemvalue="Python tests.Python tests in /home/rrudyk/progect/Homework/test_dd.py" />
     </list>
     <recent_temporary>
@@ -275,13 +275,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1625164235644</updated>
-    </task>
-    <task id="LOCAL-00032" summary="add log file">
-      <created>1627129128332</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1627129128332</updated>
     </task>
     <task id="LOCAL-00033" summary="start working with task 2">
       <created>1627129281656</created>
@@ -619,7 +612,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645130056610</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="learning python restart day 3&#10;while - loop">
+      <created>1651435029703</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1651435029704</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
