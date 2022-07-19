@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5b1fa67-084d-4fef-8298-3b4887698822" name="Default Changelist" comment="creating new folder for solution tasks and writing solves for data science">
-      <change afterPath="$PROJECT_DIR$/test_start/Data_science_TS/friendship_in_users.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_start/Data_science_TS/task_1.py" beforeDir="false" />
-    </list>
+    <list default="true" id="d5b1fa67-084d-4fef-8298-3b4887698822" name="Default Changelist" comment="creating new folder for solution tasks and writing solves for data science" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
